@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hero-container {
+  width: 100%;
+}
+
+.hero-img {
+  position: absolute;
+  width: 100%;
+}
+
+.hero-title {
+  font-size: 50px;
+  text-align: center;
+  width: 600px;
+  padding: 10px;
+  background-color: beige;
+  position: relative;
+  top: 400px;
+  left: 450px;
+}
+
+.hero-headline {
+  font-size: 20px;
+}
