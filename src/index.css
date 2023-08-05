@@ -35,6 +35,11 @@ code {
   font-size: 20px;
 }
 
+.features {
+  display: flex;
+  flex-direction: column;
+}
+
 .feature-imgs {
-  width: 350px;
+  width: 500px;
 }
