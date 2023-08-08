@@ -55,13 +55,18 @@ code {
   margin: 0 auto;
 }
 
-#headline-1, #headline-2 {
+.each-slide-effect > div {
   display: flex;
+  align-items: center;
   justify-content: center;
-  margin: 10px 0 10px 0;
+  background-size: cover;
+  height: 450px;
 }
 
-.headline-img {
-  width: 70%;
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
 }
 
