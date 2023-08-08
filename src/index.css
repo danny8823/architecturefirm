@@ -34,12 +34,34 @@ code {
 .hero-headline {
   font-size: 20px;
 }
+.features-container {
+  width: 100%;
+  margin: 0 auto;
+}
 
 .features {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
 }
 
 .feature-imgs {
-  width: 500px;
+  width: 40%;
 }
+
+.feature-desc {
+  font-size: xx-large;
+  margin: 0 auto;
+}
+
+#headline-1, #headline-2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.headline-img {
+  width: 70%;
+}
+
