@@ -70,3 +70,23 @@ code {
   text-align: center;
 }
 
+.team-card {
+  width: 300px;
+}
+
+.card-container {
+  display: flex;
+}
+
+#inquire-container {
+  margin: 20px;
+}
+
+.inquire-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.inquire-title {
+  text-align: center;
+}
