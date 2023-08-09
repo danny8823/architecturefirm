@@ -1,27 +1,36 @@
 import React from "react";
-import { Slide } from "react-slideshow-image";
-import headline_img1 from '../images/blueprint.jpg'
-import headline_img2 from '../images/construction1.jpeg'
-import headline_img3 from '../images/construction2.jpg'
+import { Parallax, Background } from "react-parallax";
+import img1 from '../images/blueprint.jpg'
+import img2 from '../images/construction1.jpeg'
+import img3 from '../images/construction2.jpg'
+
+const insideStyles = {
+    background: "white",
+    padding: 20,
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%,-50%)"
+  };
 
 export const Headline1 = () => {
     return (
-        <Slide>
-            <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${headline_img1})` }}>
-                    <span>Full service firm, from blueprint to...</span>
+        <div>
+            <Parallax bgImage = {img1}  strength={500}>
+                <div style = {{height: 500}}>
+                    <div style = {insideStyles}>Constructin</div>
                 </div>
-            </div>
-            <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${headline_img2})` }}>
-                    <span>construction with an outstanding team</span>
+            </Parallax>
+            <Parallax bgImage = {img2}  strength={500}>
+                <div style = {{height: 500}}>
+                    <div style = {insideStyles}>Constructin</div>
                 </div>
-            </div>
-            <div className="each-slide-effect">
-                <div style={{ 'backgroundImage': `url(${headline_img3})` }}>
-                    <span>Choose Pristine Archicture today.</span>
+            </Parallax>
+            <Parallax bgImage = {img3}  strength={500}>
+                <div style = {{height: 500}}>
+                    <div style = {insideStyles}>Constructin</div>
                 </div>
-            </div>
-        </Slide>
+            </Parallax>
+        </div>
     )
 }
